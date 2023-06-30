@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Remotes -->
+     <remote name="jabiyeff" fetch="https://github.com/jabiyeff" />
+     <remote name="Lineage" fetch="https://github.com/LineageOS" />
+
+  <!-- Device Tree -->
+   <project path="device/xiaomi/spes" name="android_device_xiaomi_spes" remote="jabiyeff" revision="13-staging" />
+   <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="jabiyeff" revision="13.0" />
+   <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jabiyeff" revision="12" />
+
+  <!-- Dependencies -->
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="Lineage" revision="lineage-20.0" />
+   
+</manifest>
